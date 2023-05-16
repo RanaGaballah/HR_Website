@@ -1,0 +1,128 @@
+<!DOCTYPE <html>
+
+<head>
+    <title> Update Employee Data</title>
+   <link rel="stylesheet" href="CSS\Update Page.css">
+   <script src="JS\Update Page.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="Home Page.html">Home</a></li>
+        <li><a href="Add Page.html">Add</a></li>
+        <li><a href="Edit Page.html">Edit</a></li>
+        <li><a href="Search Page.html">Search</a></li>
+        <li><a href="Review Submitted Vacations Page.html">Review Vacations</a>
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <h1\ class="p"> <b>Update Existing Employee Data</b></h1>
+        <form name="form" onsubmit="validation()" class="ta">
+            <table id="update">
+                <tr>
+                    <td>
+                        ID: *
+                    </td>
+                    <td>
+                        <input type="number" placeholder="ID" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Name: *
+                    </td>
+                    <td>
+                        <input type="text"  placeholder="Name"  readonly >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of birth: *
+                    </td>
+                    <td>
+                        <input name="date" type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender: *
+                    </td>
+                    <td>
+                            <select required>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email: *
+                    </td>
+                    <td>
+                        <input name="email" type="email" placeholder="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address: *
+                    </td>
+                    <td>
+                        <input name="address" type="text" placeholder="address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone number: *
+                    </td>
+                    <td>
+                        <select >
+                            <option>010</option>
+                            <option>011</option>
+                            <option>012</option>
+                            <option>015</option>
+                        </select>
+                        <input name="phone" type="phone" placeholder="684*****">
+                    </td>
+                </tr>
+                <Tr>
+                    <Td>Marital Status: *</Td>
+                    <td>
+                        <select required>
+                            <option>Single</option>
+                            <option>Married</option>
+                            <option>Others</option>
+                        </select>
+                    </td>
+                </Tr>
+                <tr>
+                    <td>
+                        Number of available vacation days: *
+                    </td>
+                    <td>
+                        <input name="days1" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Number of actual approved vacation days: *
+                    </td>
+                    <td>
+                        <input name="days2" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Salary: *
+                    </td>
+                    <td>
+                        <input name="salary" type="number">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button class="input">Update</button>
+        </form>
+</body>
+</body>

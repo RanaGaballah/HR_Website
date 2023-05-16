@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #EEF4ED;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #13315c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #EEF4ED;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-decoration: solid;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #EEF4ED;
+    color: #13315c;
+    text-decoration: underline;
+  }
+
+  .active {
+    background-color: #EEF4ED;
+    color: #13315c;
+  }
+
+  #edit {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  button {
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color:#EEF4ED ;
+  }
+  
+button:hover {
+    background-color: #13315c; 
+    color: white;
+  }
+  caption{
+    color: #13315c;
+    font-weight: bold;font-size: 30px;
+    margin: 10px;
+  }
+
+  #edit td,
+  #edit th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #edit tr:nth-child(even) {
+    background-color: #EEF4ED;
+  }
+
+  #edit tr:hover {
+    background-color: #ddd;
+  }
+
+  #edit th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #13315c;
+    color: #EEF4ED;
+  }
+  table{
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+  }
+  thead {
+    box-shadow: 0 5px 10px #8da9c4;
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Submit Vacation</title>
+    <link rel="stylesheet" href="CSS\submit page.css">
+    <script src="JS\Submit Page.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="Home Page.html">Home</a></li>
+        <li><a href="Add Page.html">Add</a></li>
+        <li><a href="Edit Page.html">Edit</a></li>
+        <li><a href="Search Page.html">Search</a></li>
+        <li><a href="Review Submitted Vacations Page.html">Review Vacations</a>
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="p">  Submit Vacation </h1>
+    <form name = "form" onsubmit="validation()">
+        <table>
+            <tr>
+                <td>
+                  <label><strong>ID: *</strong></label>
+                </td>
+                <td>
+                    <input type="number" name="id" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label><strong>Start Date: *</strong></label>
+                </td>
+                <td>
+                    <input type="date" name="sdate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <strong>End Date: *</strong> 
+                </td>
+                <td>
+                    <input type="date" name="edate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <strong> Reason of vacation: *</strong>
+                </td>
+                <td>
+                    <input type="text" name="reason" size="25">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input id="input" type="submit"  >
+    </form>
+</body>
+
+</html>

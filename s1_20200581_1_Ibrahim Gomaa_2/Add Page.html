@@ -1,0 +1,107 @@
+<!DOCTYPE <html>
+
+<head>
+    <title> Add Employee</title>
+    <link rel="stylesheet" href="CSS\Add page.css">
+    <script src="JS\Add Page.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="Home Page.html">Home</a></li>
+        <li><a href="Add Page.html">Add</a></li>
+        <li><a href="Edit Page.html">Edit</a></li>
+        <li><a href="Search Page.html">Search</a></li>
+        <li><a href="Review Submitted Vacations Page.html">Review Vacations</a>
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <header>Add New Employee</header>
+
+        <form id ="form" onsubmit="validation()" >
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name *</label>
+                            <input name = "name" type="text" placeholder="Enter your name" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth *</label>
+                            <input name ="date" type="date" placeholder="Enter birth date" >
+                        </div>
+
+                        <div class="input-field">
+                            <label >Email *</label>
+                            <input name="email" type="text" placeholder="Enter your email" >
+                        </div>
+
+                        <div class="input-field">
+                            <label >Mobile Number *</label>
+                            <input name="number" type="number" placeholder="Enter mobile number" >
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender *</label>
+                            <select required>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Marital Status *</label>
+                            <select required>
+                                <option>Single</option>
+                                <option>Married</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label >ID Number *</label>
+                            <input name="id" type="number" placeholder="Enter ID number" >
+                        </div>
+
+                        <div class="input-field">
+                            <label >Address *</label>
+                            <input name="address" type="text" placeholder="Enter Your Address">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Salary *</label>
+                            <input  name = "salary" type="number" placeholder="Enter Your Salary" >
+                        </div>
+
+                        <div class="input-field">
+                            <label >Number of available vacation days *</label>
+                            <input name="days1" type="number">
+                        </div>
+
+                        <div class="input-field">
+                            <label >Number of actual approved vacation days *</label>
+                            <input name="days2" type="number" >
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Add Employee</span>
+                        
+                    </button>
+                </div> 
+            </div>
+            </div>
+        </form> 
+</body>
+</body> 
